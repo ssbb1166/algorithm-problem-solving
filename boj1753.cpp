@@ -1,6 +1,7 @@
 #include <iostream>
 #include <queue>
-#define INF 999999
+// 가중치 최댓값이 10이라고 INF 값을 11로 설정하면 바보
+#define INF 1e9
 using namespace std;
 
 
