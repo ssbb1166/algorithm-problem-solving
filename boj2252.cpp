@@ -5,7 +5,7 @@ using namespace std;
 
 
 int n, m, a, b, indegree[32001];
-vector<int> graph[32001], res;
+vector<int> graph[32001];
 
 
 void TopologySort()
@@ -18,7 +18,8 @@ void TopologySort()
     while (!q.empty()) {
         int x = q.front();
         q.pop();
-        res.push_back(x);
+
+        cout << x << ' ';
 
         for (int i = 0; i < graph[x].size(); i++) {
             int nx = graph[x][i];
@@ -40,9 +41,6 @@ int main()
     }
 
     TopologySort();
-
-    for (int i = 0; i < n; i++)
-        cout << res[i] << ' ';
 
     return 0;
 }
