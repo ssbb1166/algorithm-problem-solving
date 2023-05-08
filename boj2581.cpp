@@ -4,25 +4,26 @@ using namespace std;
 
 
 int m, n, sum_prime, min_prime;
-bool prime[10001];
+
+
+bool IsPrimeNumber(int x)
+{
+    if (x == 1) return false;
+
+    for (int i = 2; i <= int(sqrt(x)); i++)
+        if (x % i == 0) return false;
+
+    return true;
+}
 
 
 int main()
 {
     cin >> m >> n;
 
-    for (int i = 2; i <= 10000; i++)
-        prime[i] = true;
-
-    for (int i = 2; i <= int(sqrt(n)); i++) {
-        if (!prime[i]) continue;
-        for (int j = i * i; j <= n; j += i)
-            prime[j] = false;
-    }
-
     min_prime = n;
     for (int i = m; i <= n; i++) {
-        if (prime[i]) {
+        if (IsPrimeNumber(i)) {
             sum_prime += i;
             if (i < min_prime)
                 min_prime = i;
