@@ -18,10 +18,10 @@ int main()
         p[i] += p[i - 1];
     }
 
-    int left, right;
+    int start, end;
     for (int i = 0; i < m; i++) {
-        cin >> left >> right;
-        cout << p[right] - p[left - 1] << '\n';
+        cin >> start >> end;
+        cout << p[end] - p[start - 1] << '\n';
     }
 
     return 0;
