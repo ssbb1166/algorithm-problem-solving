@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int n, max_w, w[100000];
+int n, res, w[100000];
 
 
 int main()
@@ -16,9 +16,9 @@ int main()
     sort(w, w + n);
 
     for (int i = 0; i < n; i++)
-        max_w = max(max_w, w[i] * (n - i));
+        res = max(res, w[i] * (n - i));
 
-    cout << max_w << '\n';
+    cout << res << '\n';
 
     return 0;
 }
