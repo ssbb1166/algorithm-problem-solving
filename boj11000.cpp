@@ -9,14 +9,6 @@ pair<int, int> t[200000];
 priority_queue<int, vector<int>, greater<int>> lectures;
 
 
-bool cmp(pair<int, int> t1, pair<int, int> t2)
-{
-    if (t1.first == t2.first)
-        return t1.second < t2.second;
-    return t1.first < t2.first;
-}
-
-
 int main()
 {
     cin >> n;
@@ -26,7 +18,7 @@ int main()
         t[i] = { s, e };
     }
 
-    sort(t, t + n, cmp);
+    sort(t, t + n);
 
     lectures.push(0);
 
