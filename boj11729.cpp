@@ -8,8 +8,8 @@ string line;
 
 int main()
 {
-	while (getline(cin, line))
-		cout << line << '\n';
+    while (getline(cin, line))
+        cout << line << '\n';
 
-	return 0;
+    return 0;
 }
