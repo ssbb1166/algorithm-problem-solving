@@ -27,7 +27,7 @@ void Move(int dir)
 
     // 해당 방향으로 블록을 이동한다.
     for (int y = 0; y < n; y++) {
-        int col[21] = { 0 };
+        int col[20] = { 0 };
         int idx = 0;
 
         for (int x = 0; x < n; x++) {
@@ -36,7 +36,9 @@ void Move(int dir)
                 continue;
 
             // 같은 값을 갖는 두 블록이 충돌하면 합친다.
-            if (col[idx] == board[y][x])
+            if (col[idx] == 0)
+                col[idx] = board[y][x];
+            else if (col[idx] == board[y][x])
                 col[idx++] <<= 1;
             else
                 col[++idx] = board[y][x];
@@ -44,7 +46,7 @@ void Move(int dir)
 
         // 블록을 합친 결과를 보드에 기록한다.
         for (int x = 0; x < n; x++)
-            board[y][x] = col[x + 1];
+            board[y][x] = col[x];
     }
 }
 
