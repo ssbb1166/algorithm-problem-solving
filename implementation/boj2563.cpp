@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int n, dx, dy, cnt;
+int n, x, y, cnt;
 bool paper[100][100];
 
 
@@ -11,11 +11,11 @@ int main()
     cin >> n;
 
     for (int i = 0; i < n; i++) {
-        cin >> dx >> dy;
+        cin >> x >> y;
 
-        for (int y = dy; y < dy + 10; y++)
-            for (int x = dx; x < dx + 10; x++)
-                paper[y][x] = true;
+        for (int dy = 0; dy < 10; dy++)
+            for (int dx = 0; dx < 10; dx++)
+                paper[y + dy][x + dx] = true;
     }
 
     for (int y = 0; y < 100; y++)
