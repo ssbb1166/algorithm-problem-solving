@@ -38,3 +38,8 @@
   docs: add coding rules
   rename: boj1000.cpp to boj2000.cpp
   ```
+
+## Issue Guidelines
+
+  - 수정필요: 수정이 필요한 사항이 있을 경우
+  - 이해필요: 이해가 필요한 사항이 있을 경우
