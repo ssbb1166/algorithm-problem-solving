@@ -1,6 +1,6 @@
 ---
 name: Fix template
-about: 수정이 필요한 사항이 있을 경우
+about: 수정이 필요한 사항
 title: "[수정] <파일명>"
 labels: ''
 assignees: ssbb1166
