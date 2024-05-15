@@ -21,9 +21,14 @@
   <tr>
     <td>Level 레벨</td>
     <td><a href="문제링크">문제제목</a></td>
-    <td><a href="코드링크">C++</a></td>
+    <td><a href="코드링크">알고리즘분류</a></td>
   </tr>
   -->
+  <tr>
+    <td>Level 1</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42748">K번째수</a></td>
+    <td><a href="sorting/prog42748.cpp">정렬</a></td>
+  </tr>
   <tr>
     <td>Level 1</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42840">모의고사</a></td>
@@ -33,6 +38,11 @@
     <td>Level 2</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/1844">게임 맵 최단거리</a></td>
     <td><a href="bfs/prog1844.cpp">BFS</a></td>
+  </tr>
+  <tr>
+    <td>Level 2</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42746">가장 큰 수</a></td>
+    <td><a href="sorting/prog42746.cpp">정렬</a></td>
   </tr>
   <tr>
     <td>Level 2</td>
