@@ -5,6 +5,13 @@
 
 알고리즘 문제 솔루션 저장소입니다. 모든 솔루션은 C++ 언어로 작성되었으며, `ctrl + F`로 검색할 수 있습니다.
 
+## Table of Contents
+
+  - [코딩 규칙](#coding-rules)
+  - [커밋 가이드라인](#commit-guidelines)
+  - [이슈 가이드라인](#issue-guidelines)
+  - [문제 솔루션 검색](#problem-solution)
+
 ## Coding Rules
 
 ### Variable Naming
@@ -26,7 +33,7 @@
   - 시간 복잡도가 중요한 문제는 `ios::sync_with_stdio(false); cin.tie(nullptr);`를 써야 한다.
   - 특별한 경우를 제외하고 정답을 출력할 때 끝에 `'\n'` 개행 문자를 출력한다. `endl`은 사용하지 않는다.
 
-## Commit Message Guidelines
+## Commit Guidelines
 
 ### Commit Message Format
 
@@ -63,7 +70,7 @@
   - [복습] 복습이 필요한 사항
     - `복습` : 복습이 필요한 코드
 
-## Solution Table of Contents
+## Problem Solution
 
 `ctrl + F`로 원하는 풀이를 찾을 수 있습니다.
 
