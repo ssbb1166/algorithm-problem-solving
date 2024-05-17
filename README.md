@@ -7,10 +7,22 @@
 
 ## Coding Rules
 
-  - 들여쓰기는 공백 문자 4개를 사용한다.
-  - 변수명은 snake case, 함수명은 pascal case를 따른다.
-  - 한 줄짜리 if, for, while 문에는 되도록 중괄호를 사용하지 않는다.
+### Variable Naming
+
+  - 변수명은 snake case를 따른다.
+  - 변수는 문제에 나온 명칭을 그대로 사용한다.
+  - 문제에 나온 명칭을 사용할 수 없을 경우 의미 있는 변수명을 사용한다.
   - 변수는 임시로 값을 저장하는 변수를 제외하고 모두 전역 변수로 선언한다.
+
+### Function Naming
+
+  - 함수명은 pascal case를 따른다.
+  - 함수명은 동사로 시작한다. (예외: DFS, BFS, Factorial 등)
+
+### Formatting
+
+  - 들여쓰기는 공백 문자 4개를 사용한다.
+  - 한 줄짜리 if, for, while 문에는 되도록 중괄호를 사용하지 않는다.
   - 시간 복잡도가 중요한 문제는 `ios::sync_with_stdio(false); cin.tie(nullptr);`를 써야 한다.
   - 특별한 경우를 제외하고 정답을 출력할 때 끝에 `'\n'` 개행 문자를 출력한다. `endl`은 사용하지 않는다.
 
