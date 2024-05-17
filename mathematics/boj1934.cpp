@@ -19,7 +19,7 @@ int GCD(int a, int b)
 }
 
 
-int LCD(int a, int b)
+int LCM(int a, int b)
 {
     return a * b / GCD(a, b);
 }
@@ -31,7 +31,7 @@ int main()
 
     for (int i = 0; i < t; i++) {
         cin >> a >> b;
-        cout << LCD(a, b) << '\n';
+        cout << LCM(a, b) << '\n';
     }
 
     return 0;
