@@ -11,7 +11,7 @@ int main()
 
     for (int i = 0; i < n; i++) {
         cin >> r >> e >> c;
-        if (r <  e - c)
+        if (r < e - c)
             cout << "advertise" << '\n';
         else if (r > e - c)
             cout << "do not advertise" << '\n';
