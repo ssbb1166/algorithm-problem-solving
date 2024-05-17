@@ -8,6 +8,7 @@
 ## Table of Contents
 
   - [코딩 규칙](#coding-rules)
+  - [알고리즘 분류](#algorithm-classification)
   - [커밋 가이드라인](#commit-guidelines)
   - [이슈 가이드라인](#issue-guidelines)
   - [문제 솔루션 검색](#problem-solution)
@@ -32,6 +33,10 @@
   - 한 줄짜리 if, for, while 문에는 되도록 중괄호를 사용하지 않는다.
   - 시간 복잡도가 중요한 문제는 `ios::sync_with_stdio(false); cin.tie(nullptr);`를 써야 한다.
   - 특별한 경우를 제외하고 정답을 출력할 때 끝에 `'\n'` 개행 문자를 출력한다. `endl`은 사용하지 않는다.
+
+## Algorithm Classification
+
+솔루션은 기본적으로 가장 주요한 태그 하나로만 분류된다.
 
 ## Commit Guidelines
 
