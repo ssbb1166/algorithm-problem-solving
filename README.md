@@ -5,24 +5,28 @@
 
 알고리즘 문제 솔루션 저장소입니다. 모든 솔루션은 C++ 언어로 작성되었으며, `ctrl + F`로 검색할 수 있습니다.
 
+<br>
+
 ## Table of Contents
 
   - [코딩 규칙](#coding-rules)
-  - [알고리즘 분류](#algorithm-classification)
+  - [알고리즘 분류](#algorithm-tag)
   - [커밋 가이드라인](#commit-guidelines)
   - [이슈 가이드라인](#issue-guidelines)
   - [문제 솔루션 검색](#problem-solution)
 
+<br>
+
 ## Coding Rules
 
-### Variable Naming
+### Variable
 
   - 변수명은 snake case를 따른다.
-  - 변수는 문제에 나온 명칭을 그대로 사용한다.
-  - 문제에 나온 명칭을 사용할 수 없을 경우 의미 있는 변수명을 사용한다.
-  - 변수는 임시로 값을 저장하는 변수를 제외하고 모두 전역 변수로 선언한다.
+  - 변수명은 문제에 나온 명칭을 그대로 사용한다.
+  - 문제에 나온 명칭을 사용할 수 없으면 의미 있는 변수명을 짓는다.
+  - 임시로 값을 저장하는 변수를 제외하고 모두 전역 변수로 선언한다.
 
-### Function Naming
+### Function
 
   - 함수명은 pascal case를 따른다.
   - 함수명은 동사로 시작한다. (예외: DFS, BFS, Factorial 등)
@@ -34,9 +38,22 @@
   - 시간 복잡도가 중요한 문제는 `ios::sync_with_stdio(false); cin.tie(nullptr);`를 써야 한다.
   - 특별한 경우를 제외하고 정답을 출력할 때 끝에 `'\n'` 개행 문자를 출력한다. `endl`은 사용하지 않는다.
 
-## Algorithm Classification
+<br>
 
-솔루션은 기본적으로 가장 주요한 태그 하나로만 분류된다.
+## Algorithm Tag
+
+알고리즘별로 분류하여 알고리즘 공부의 효용성을 높였습니다.
+
+### Programmers
+
+  - 코딩 테스트 고득점 키트 문제는 [프로그래머스 분류](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)에 따른다.
+
+### Baekjoon
+
+  - 솔루션은 기본적으로 가장 주요한 태그 하나로만 분류한다.
+  - 여러 알고리즘이 포함될 경우 [문제 수가 적은 태그](https://www.acmicpc.net/problem/tags)로 분류한다.
+
+<br>
 
 ## Commit Guidelines
 
@@ -65,6 +82,8 @@
   rename: boj1000.cpp to boj2000.cpp
   ```
 
+<br>
+
 ## Issue Guidelines
 
   - [수정] 수정이 필요한 사항
@@ -74,6 +93,8 @@
     - `기타` : 코드를 제외한 기타 수정 사항
   - [복습] 복습이 필요한 사항
     - `복습` : 복습이 필요한 코드
+
+<br>
 
 ## Problem Solution
 
