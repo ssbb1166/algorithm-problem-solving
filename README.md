@@ -107,7 +107,8 @@
   <tr>
     <th>레벨</th>
     <th>문제</th>
-    <th>풀이</th>
+    <th>해설</th>
+    <th>코드</th>
   </tr>
 </thead>
 <tbody>
@@ -116,33 +117,39 @@
   <tr>
     <td>Level 레벨</td>
     <td><a href="문제링크">문제제목</a></td>
-    <td><a href="코드링크">알고리즘분류</a></td>
+    <td><a href="해설링크">알고리즘분류</a></td>
+    <td><a href="코드링크">C++</a></td>
   </tr>
   -->
   <tr>
     <td>Level 1</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42748">K번째수</a></td>
-    <td><a href="sorting/prog42748.cpp">정렬</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="sorting/prog42748.cpp">C++</a></td>
   </tr>
   <tr>
     <td>Level 1</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42840">모의고사</a></td>
-    <td><a href="brute-force/prog42840.cpp">완전탐색</a></td>
+    <td><a>완전탐색</a></td>
+    <td><a href="brute-force/prog42840.cpp">C++</a></td>
   </tr>
   <tr>
     <td>Level 2</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/1844">게임 맵 최단거리</a></td>
-    <td><a href="bfs/prog1844.cpp">BFS</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/prog1844.cpp">C++</a></td>
   </tr>
   <tr>
     <td>Level 2</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42746">가장 큰 수</a></td>
-    <td><a href="sorting/prog42746.cpp">정렬</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="sorting/prog42746.cpp">C++</a></td>
   </tr>
   <tr>
     <td>Level 2</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165">타겟 넘버</a></td>
-    <td><a href="bfs/prog43165.cpp">BFS</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/prog43165.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
