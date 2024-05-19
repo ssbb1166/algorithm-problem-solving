@@ -193,5 +193,12 @@
     <td><a href="implementation/README.md#boj1001">구현</a></td>
     <td><a href="implementation/boj1001.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1002</td>
+    <td>실버 Ⅲ</td>
+    <td><a href="https://www.acmicpc.net/problem/1002">터렛</a></td>
+    <td><a href="mathematics/README.md#boj1002">수학</a></td>
+    <td><a href="mathematics/boj1002.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
