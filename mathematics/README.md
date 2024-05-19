@@ -1,6 +1,40 @@
 # 수학
 
-## 백준 1002번 터렛
+## 목차
+
+<table>
+<thead>
+  <tr>
+    <th>번호</th>
+    <th>레벨</th>
+    <th>문제</th>
+    <th>코드</th>
+    <th>해설</th>
+  </tr>
+</thead>
+<tbody>
+  <!-- 문제번호 순으로 정렬한다. -->
+  <!--
+  <tr>
+    <td>번호</td>
+    <td>레벨</td>
+    <td><a href="문제링크">문제제목</a></td>
+    <td><a href="코드링크">알고리즘분류</a></td>
+  </tr>
+  -->
+  <tr>
+    <td>1002</td>
+    <td>실버 Ⅲ</td>
+    <td><a href="https://www.acmicpc.net/problem/1002">터렛</a></td>
+    <td><a href="boj1002.cpp">수학</a></td>
+    <td><a href="#boj1002">해설</td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+## <a id="boj1002">백준 1002번 터렛</a>
 
 [Problem](https://www.acmicpc.net/problem/1002) / [Solution](boj1002.cpp)
 
