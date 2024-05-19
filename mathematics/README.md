@@ -8,8 +8,8 @@
     <th>번호</th>
     <th>레벨</th>
     <th>문제</th>
-    <th>코드</th>
     <th>해설</th>
+    <th>코드</th>
   </tr>
 </thead>
 <tbody>
@@ -19,15 +19,16 @@
     <td>번호</td>
     <td>레벨</td>
     <td><a href="문제링크">문제제목</a></td>
-    <td><a href="코드링크">알고리즘분류</a></td>
+    <td><a href="해설링크">알고리즘분류</a></td>
+    <td><a href="코드링크">C++</a></td>
   </tr>
   -->
   <tr>
     <td>1002</td>
     <td>실버 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1002">터렛</a></td>
-    <td><a href="boj1002.cpp">수학</a></td>
-    <td><a href="#boj1002">해설</td>
+    <td><a href="#boj1002">수학</td>
+    <td><a href="boj1002.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
