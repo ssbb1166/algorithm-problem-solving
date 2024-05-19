@@ -157,7 +157,8 @@
     <th>번호</th>
     <th>레벨</th>
     <th>문제</th>
-    <th>풀이</th>
+    <th>해설</th>
+    <th>코드</th>
   </tr>
 </thead>
 <tbody>
@@ -167,20 +168,23 @@
     <td>번호</td>
     <td>레벨</td>
     <td><a href="문제링크">문제제목</a></td>
-    <td><a href="코드링크">알고리즘분류</a></td>
+    <td><a href="해설링크">알고리즘분류</a></td>
+    <td><a href="코드링크">C++</a></td>
   </tr>
   -->
   <tr>
     <td>1000</td>
     <td>브론즈Ⅴ</td>
     <td><a href="https://www.acmicpc.net/problem/1000">A+B</a></td>
-    <td><a href="implementation/boj1000.cpp">구현</a></td>
+    <td><a href="implementation/README.md#boj1000">구현</a></td>
+    <td><a href="implementation/boj1000.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1001</td>
     <td>브론즈Ⅴ</td>
     <td><a href="https://www.acmicpc.net/problem/1001">A-B</a></td>
-    <td><a href="implementation/boj1001.cpp">구현</a></td>
+    <td><a href="implementation/README.md#boj1001">구현</a></td>
+    <td><a href="implementation/boj1001.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
