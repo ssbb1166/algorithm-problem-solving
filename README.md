@@ -214,5 +214,12 @@
     <td><a href="mathematics/README.md#boj1004">수학</td>
     <td><a href="mathematics/boj1004.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1005</td>
+    <td>골드 Ⅲ</td>
+    <td><a href="https://www.acmicpc.net/problem/1005">ACM Craft</a></td>
+    <td><a href="topological-sort/README.md#boj1005">위상정렬</td>
+    <td><a href="topological-sort/boj1005.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
