@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -9,12 +10,21 @@ int d[1001], dp[1001], indegree[1001];
 vector<int> graph[1001];
 
 
+void Initialize()
+{
+    for (int i = 1; i <= n; i++) {
+        d[i] = dp[i] = indegree[i] = 0;
+        graph[i].clear();
+    }
+}
+
+
 void TopologySort()
 {
     queue<int> q;
 
     for (int i = 1; i <= n; i++) {
-        if (!indegree[i]) {
+        if (indegree[i] == 0) {
             q.push(i);
             dp[i] = d[i];
         }
@@ -24,15 +34,13 @@ void TopologySort()
         int x = q.front();
         q.pop();
 
-        for (int i = 0; i < graph[x].size(); i++) {
-            int nx = graph[x][i];
+        for (int nx : graph[x]) {
             indegree[nx]--;
 
-            if (!indegree[nx])
-                q.push(nx);
+            dp[nx] = max(dp[nx], dp[x] + d[nx]);
 
-            if (dp[nx] < dp[x] + d[nx])
-                dp[nx] = dp[x] + d[nx];
+            if (indegree[nx] == 0)
+                q.push(nx);
         }
     }
 }
@@ -44,6 +52,8 @@ int main()
 
     for (int i = 0; i < t; i++) {
         cin >> n >> k;
+
+        Initialize();
 
         for (int j = 1; j <= n; j++)
             cin >> d[j];
@@ -59,11 +69,6 @@ int main()
         TopologySort();
 
         cout << dp[w] << '\n';
-
-        for (int j = 1; j <= n; j++) {
-            d[j] = dp[j] = indegree[j] = 0;
-            graph[j].clear();
-        }
     }
 
     return 0;
