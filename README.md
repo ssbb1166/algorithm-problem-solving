@@ -207,5 +207,12 @@
     <td><a href="dp/README.md#boj1003">DP</td>
     <td><a href="dp/boj1003.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1004</td>
+    <td>실버 Ⅲ</td>
+    <td><a href="https://www.acmicpc.net/problem/1004">어린 왕자</a></td>
+    <td><a href="mathematics/README.md#boj1004">수학</td>
+    <td><a href="mathematics/boj1004.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
