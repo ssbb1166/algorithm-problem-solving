@@ -79,9 +79,16 @@
 중심 사이의 거리를 구할 때 제곱근을 계산해야 합니다. 오차가 발생할 수 있으므로 양변을 제곱하여 비교합니다.
 
 ```cpp
-dist = (x2 - x1) * (x2 - x1)
-cond1 = (r2 - r1) * (r2 - r1)
-cond2 = (r1 + r2) * (r1 + r2)
+dist = (x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)
+
+if (dist == 0 && r1 == r2)
+    cout << -1 << '\n';
+else if (dist > (r2 - r1) * (r2 - r1) && dist < (r1 + r2) * (r1 + r2))
+    cout << 2 << '\n';
+else if (dist == (r2 - r1) * (r2 - r1) || dist == (r1 + r2) * (r1 + r2))
+    cout << 1 << '\n';
+else
+    cout << 0 << '\n';
 ```
 
 ### 핵심 개념
