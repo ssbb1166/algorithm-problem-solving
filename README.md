@@ -228,5 +228,12 @@
     <td><a href="backtracking/README.md#boj1007">백트래킹</td>
     <td><a href="backtracking/boj1007.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1008</td>
+    <td>브론즈Ⅴ</td>
+    <td><a href="https://www.acmicpc.net/problem/1008">A/B</a></td>
+    <td><a href="implementation/README.md#boj1008">구현</td>
+    <td><a href="implementation/boj1008.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
