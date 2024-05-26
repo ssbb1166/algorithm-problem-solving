@@ -14,7 +14,7 @@ int main()
         dp[1][i] = dp[1][i - 1] + dp[1][i - 2];
     }
 
-    for (int i = 0; i < t; i++) {
+    while (t--) {
         cin >> n;
         cout << dp[0][n] << ' ' << dp[1][n] << '\n';
     }
