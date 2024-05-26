@@ -37,6 +37,13 @@
     <td><a href="#boj1001">구현</td>
     <td><a href="boj1001.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1008</td>
+    <td>브론즈 Ⅴ</td>
+    <td><a href="https://www.acmicpc.net/problem/1008">A/B</a></td>
+    <td><a href="#boj1008">구현</td>
+    <td><a href="boj1008.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
@@ -67,3 +74,17 @@
 ### 입력 조건
 
 - 정수 A와 B를 공백 한 칸으로 구분하여 입력받는다. (0 < A, B < 10)
+
+<br>
+
+## <a id="boj1008">백준 1008번 A/B</a>
+
+[Problem](https://www.acmicpc.net/problem/1008) / [Solution](boj1008.cpp)
+
+### 문제 요약
+
+### 입력 조건
+
+### 문제 풀이
+
+### 핵심 개념
