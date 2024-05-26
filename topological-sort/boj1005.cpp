@@ -36,9 +36,7 @@ void TopologySort()
 
         for (int nx : graph[x]) {
             indegree[nx]--;
-
             dp[nx] = max(dp[nx], dp[x] + d[nx]);
-
             if (indegree[nx] == 0)
                 q.push(nx);
         }
@@ -50,15 +48,15 @@ int main()
 {
     cin >> t;
 
-    for (int i = 0; i < t; i++) {
+    while (t--) {
         cin >> n >> k;
 
         Initialize();
 
-        for (int j = 1; j <= n; j++)
-            cin >> d[j];
+        for (int i = 1; i <= n; i++)
+            cin >> d[i];
 
-        for (int j = 0; j < k; j++) {
+        while (k--) {
             cin >> x >> y;
             graph[x].push_back(y);
             indegree[y]++;
