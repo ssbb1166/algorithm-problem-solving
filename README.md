@@ -134,6 +134,12 @@
     <td><a href="brute-force/prog42840.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>Level 1</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a></td>
+    <td><a>완전탐색</a></td>
+    <td><a href="brute-force/prog86491.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>Level 2</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/1844">게임 맵 최단거리</a></td>
     <td><a>BFS</a></td>
@@ -150,6 +156,12 @@
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165">타겟 넘버</a></td>
     <td><a>BFS</a></td>
     <td><a href="bfs/prog43165.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43238">입국심사</a></td>
+    <td><a>이진탐색</a></td>
+    <td><a href="binary-search/prog43238.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
