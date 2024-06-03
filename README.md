@@ -1,7 +1,7 @@
 # 알고리즘 문제 풀이
 
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj=songsubin)](https://solved.ac/songsubin)
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=songsubin)](https://solved.ac/songsubin)
 
 알고리즘 문제 솔루션 저장소입니다. 모든 솔루션은 C++ 언어로 작성되었으며, `ctrl + F`로 검색할 수 있습니다.
 
