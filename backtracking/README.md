@@ -23,21 +23,14 @@
     <td><a href="코드링크">C++</a></td>
   </tr>
   -->
-  <tr>
-    <td>1007</td>
-    <td>골드 Ⅱ</td>
-    <td><a href="https://www.acmicpc.net/problem/1007">벡터 매칭</a></td>
-    <td><a href="#boj1007">백트래킹</td>
-    <td><a href="boj1007.cpp">C++</a></td>
-  </tr>
 </tbody>
 </table>
 
 <br>
 
-## <a id="boj1007">백준 1007번 벡터 매칭</a>
+## <a id="boj0000">백준 0000번 제목</a>
 
-[Problem](https://www.acmicpc.net/problem/1007) / [Solution](boj1007.cpp)
+[Problem](https://www.acmicpc.net/problem/0000) / [Solution](boj0000.cpp)
 
 ### 문제 요약
 
