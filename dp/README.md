@@ -6,7 +6,6 @@
 <thead>
   <tr>
     <th>번호</th>
-    <th>레벨</th>
     <th>문제</th>
     <th>해설</th>
     <th>코드</th>
@@ -17,7 +16,6 @@
   <!--
   <tr>
     <td>번호</td>
-    <td>레벨</td>
     <td><a href="문제링크">문제제목</a></td>
     <td><a href="해설링크">알고리즘분류</a></td>
     <td><a href="코드링크">C++</a></td>
@@ -25,9 +23,8 @@
   -->
   <tr>
     <td>1003</td>
-    <td>실버 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1003">피보나치 함수</a></td>
-    <td><a href="#boj1003">DP</td>
+    <td><a href="#boj1003">DP</a></td>
     <td><a href="boj1003.cpp">C++</a></td>
   </tr>
 </tbody>
