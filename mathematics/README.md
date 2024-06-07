@@ -29,7 +29,6 @@
   </tr>
   <tr>
     <td>1004</td>
-    <td>실버 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1004">어린 왕자</a></td>
     <td><a href="#boj1004">수학</a></td>
     <td><a href="boj1004.cpp">C++</a></td>
