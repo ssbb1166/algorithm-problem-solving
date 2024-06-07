@@ -244,5 +244,10 @@
     <td><a>구현</a></td>
     <td><a href="implementation/boj1005.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1009</td>
+    <td><a href="https://www.acmicpc.net/problem/1009">분산처리</a></td>
+    <td><a>수학</a></td>
+    <td><a href="mathematics/boj1009.cpp">C++</a></td>
 </tbody>
 </table>
