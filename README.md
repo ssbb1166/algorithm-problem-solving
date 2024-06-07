@@ -217,20 +217,32 @@
   <tr>
     <td>1003</td>
     <td><a href="https://www.acmicpc.net/problem/1003">피보나치 함수</a></td>
-    <td><a href="dp/README.md#boj1003">DP</td>
+    <td><a href="dp/README.md#boj1003">DP</a></td>
     <td><a href="dp/boj1003.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1004</td>
     <td><a href="https://www.acmicpc.net/problem/1004">어린 왕자</a></td>
-    <td><a href="mathematics/README.md#boj1004">수학</td>
+    <td><a href="mathematics/README.md#boj1004">수학</a></td>
     <td><a href="mathematics/boj1004.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1005</td>
     <td><a href="https://www.acmicpc.net/problem/1005">ACM Craft</a></td>
-    <td><a href="topological-sort/README.md#boj1005">위상정렬</td>
+    <td><a href="topological-sort/README.md#boj1005">위상정렬</a></td>
     <td><a href="topological-sort/boj1005.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>1007</td>
+    <td><a href="https://www.acmicpc.net/problem/1007">벡터 매칭</a></td>
+    <td><a>수학</a></td>
+    <td><a href="mathematics/boj1007.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>1008</td>
+    <td><a href="https://www.acmicpc.net/problem/1008">A/B</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj1005.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
