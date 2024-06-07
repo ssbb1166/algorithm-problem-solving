@@ -33,6 +33,12 @@
     <td><a href="#boj1004">수학</a></td>
     <td><a href="boj1004.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>1007</td>
+    <td><a href="https://www.acmicpc.net/problem/1007">벡터 매칭</a></td>
+    <td><a href="#boj1007">수학</a></td>
+    <td><a href="boj1007.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
