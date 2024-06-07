@@ -160,6 +160,12 @@
   </tr>
   <tr>
     <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43105">정수 삼각형</a></td>
+    <td><a>DP</a></td>
+    <td><a href="dp/prog43105.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43238">입국심사</a></td>
     <td><a>이진탐색</a></td>
     <td><a href="binary-search/prog43238.cpp">C++</a></td>
