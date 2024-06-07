@@ -175,7 +175,6 @@
 <thead>
   <tr>
     <th>번호</th>
-    <th>레벨</th>
     <th>문제</th>
     <th>해설</th>
     <th>코드</th>
@@ -186,7 +185,6 @@
   <!--
   <tr>
     <td>번호</td>
-    <td>레벨</td>
     <td><a href="문제링크">문제제목</a></td>
     <td><a href="해설링크">알고리즘분류</a></td>
     <td><a href="코드링크">C++</a></td>
@@ -194,42 +192,36 @@
   -->
   <tr>
     <td>1000</td>
-    <td>브론즈Ⅴ</td>
     <td><a href="https://www.acmicpc.net/problem/1000">A+B</a></td>
     <td><a href="implementation/README.md#boj1000">구현</a></td>
     <td><a href="implementation/boj1000.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1001</td>
-    <td>브론즈Ⅴ</td>
     <td><a href="https://www.acmicpc.net/problem/1001">A-B</a></td>
     <td><a href="implementation/README.md#boj1001">구현</a></td>
     <td><a href="implementation/boj1001.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1002</td>
-    <td>실버 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1002">터렛</a></td>
     <td><a href="mathematics/README.md#boj1002">수학</a></td>
     <td><a href="mathematics/boj1002.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1003</td>
-    <td>실버 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1003">피보나치 함수</a></td>
     <td><a href="dp/README.md#boj1003">DP</td>
     <td><a href="dp/boj1003.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1004</td>
-    <td>실버 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1004">어린 왕자</a></td>
     <td><a href="mathematics/README.md#boj1004">수학</td>
     <td><a href="mathematics/boj1004.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1005</td>
-    <td>골드 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1005">ACM Craft</a></td>
     <td><a href="topological-sort/README.md#boj1005">위상정렬</td>
     <td><a href="topological-sort/boj1005.cpp">C++</a></td>
