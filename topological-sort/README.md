@@ -6,7 +6,6 @@
 <thead>
   <tr>
     <th>번호</th>
-    <th>레벨</th>
     <th>문제</th>
     <th>해설</th>
     <th>코드</th>
@@ -17,7 +16,6 @@
   <!--
   <tr>
     <td>번호</td>
-    <td>레벨</td>
     <td><a href="문제링크">문제제목</a></td>
     <td><a href="해설링크">알고리즘분류</a></td>
     <td><a href="코드링크">C++</a></td>
@@ -25,9 +23,8 @@
   -->
   <tr>
     <td>1005</td>
-    <td>골드 Ⅲ</td>
     <td><a href="https://www.acmicpc.net/problem/1005">ACM Craft</a></td>
-    <td><a href="#boj1005">위상정렬</td>
+    <td><a href="#boj1005">위상정렬</a></td>
     <td><a href="boj1005.cpp">C++</a></td>
   </tr>
 </tbody>
