@@ -59,5 +59,11 @@
     <td><a href="코드링크">C++</a></td>
   </tr>
   -->
+  <tr>
+    <td>2309</td>
+    <td><a href="https://www.acmicpc.net/problem/2309">일곱 난쟁이</a></td>
+    <td><a>완전탐색</a></td>
+    <td><a href="boj2309.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
