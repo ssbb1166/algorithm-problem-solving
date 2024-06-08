@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int num[5], sum, avg, mid;
+int num[5], sum;
 
 
 int main()
@@ -15,11 +15,7 @@ int main()
 
     sort(num, num + 5);
 
-    avg = sum / 5;
-    mid = num[2];
-
-    cout << avg << '\n';
-    cout << mid << '\n';
+    cout << sum / 5 << '\n' << num[2];
 
     return 0;
 }
