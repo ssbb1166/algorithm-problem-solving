@@ -48,6 +48,60 @@
     <td><a href="boj1267.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>2438</td>
+    <td><a href="https://www.acmicpc.net/problem/2438">별 찍기 - 1</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2438.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2439</td>
+    <td><a href="https://www.acmicpc.net/problem/2439">별 찍기 - 2</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2439.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2440</td>
+    <td><a href="https://www.acmicpc.net/problem/2440">별 찍기 - 3</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2440.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2441</td>
+    <td><a href="https://www.acmicpc.net/problem/2441">별 찍기 - 4</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2441.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2442</td>
+    <td><a href="https://www.acmicpc.net/problem/2442">별 찍기 - 5</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2442.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2443</td>
+    <td><a href="https://www.acmicpc.net/problem/2443">별 찍기 - 6</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2443.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2444</td>
+    <td><a href="https://www.acmicpc.net/problem/2444">별 찍기 - 7</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2444.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2445</td>
+    <td><a href="https://www.acmicpc.net/problem/2445">별 찍기 - 8</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2445.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2446</td>
+    <td><a href="https://www.acmicpc.net/problem/2446">별 찍기 - 9</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2446.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2480</td>
     <td><a href="https://www.acmicpc.net/problem/2480">주사위 세개</a></td>
     <td><a>구현</a></td>
@@ -64,6 +118,12 @@
     <td><a href="https://www.acmicpc.net/problem/2557">Hello World</a></td>
     <td><a>구현</a></td>
     <td><a href="boj2557.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2562</td>
+    <td><a href="https://www.acmicpc.net/problem/2562">최댓값</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj2562.cpp">C++</a></td>
   </tr>
   <tr>
     <td>2576</td>
