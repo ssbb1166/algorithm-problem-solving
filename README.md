@@ -249,5 +249,102 @@
     <td><a href="https://www.acmicpc.net/problem/1009">분산처리</a></td>
     <td><a href="mathematics/README.md#boj1009">수학</a></td>
     <td><a href="mathematics/boj1009.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>1267</td>
+    <td><a href="https://www.acmicpc.net/problem/1267">핸드폰 요금</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj1267.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2309</td>
+    <td><a href="https://www.acmicpc.net/problem/2309">일곱 난쟁이</a></td>
+    <td><a>완전탐색</a></td>
+    <td><a href="brute-force/boj2309.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2480</td>
+    <td><a href="https://www.acmicpc.net/problem/2480">주사위 세개</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2480.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2490</td>
+    <td><a href="https://www.acmicpc.net/problem/2490">윷놀이</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2490.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2557</td>
+    <td><a href="https://www.acmicpc.net/problem/2557">Hello World</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2557.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2576</td>
+    <td><a href="https://www.acmicpc.net/problem/2576">홀수</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2576.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2587</td>
+    <td><a href="https://www.acmicpc.net/problem/2587">대표값2</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2587.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2752</td>
+    <td><a href="https://www.acmicpc.net/problem/2752">세수정렬</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2752.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2753</td>
+    <td><a href="https://www.acmicpc.net/problem/2753">윤년</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2753.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>9498</td>
+    <td><a href="https://www.acmicpc.net/problem/9498">시험 성적</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj9498.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10093</td>
+    <td><a href="https://www.acmicpc.net/problem/10093">숫자</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10093.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10171</td>
+    <td><a href="https://www.acmicpc.net/problem/10171">고양이</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10171.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10804</td>
+    <td><a href="https://www.acmicpc.net/problem/10804">카드 역배치</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10804.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10869</td>
+    <td><a href="https://www.acmicpc.net/problem/10869">사칙연산</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10869.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10871</td>
+    <td><a href="https://www.acmicpc.net/problem/10871">X보다 작은 수</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10871.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>15552</td>
+    <td><a href="https://www.acmicpc.net/problem/15552">빠른 A+B</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj15552.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
