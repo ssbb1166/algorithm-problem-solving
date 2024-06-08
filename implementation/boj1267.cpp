@@ -16,11 +16,11 @@ int main()
     }
 
     if (y < m)
-        cout << "Y " << y << '\n';
+        cout << "Y " << y;
     else if (y > m)
-        cout << "M " << m << '\n';
+        cout << "M " << m;
     else
-        cout << "Y M " << y << '\n';
+        cout << "Y M " << y;
 
     return 0;
 }
