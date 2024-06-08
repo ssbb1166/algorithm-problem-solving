@@ -1,29 +1,25 @@
+#include <algorithm>
 #include <iostream>
 using namespace std;
 
 
-long long int a, b, tmp;
+long long a, b, tmp;
 
 
 int main()
 {
     cin >> a >> b;
 
-    if (a > b) {
-        tmp = a;
-        a = b;
-        b = tmp;
-    }
-    
-    if (a == b) {
+    if (a > b)
+        swap(a, b);
+
+    if (a == b)
         cout << 0 << '\n';
-    }
-    else {
+    else
         cout << b - a - 1 << '\n';
-        for (long long int i = a + 1; i <= b - 1; i++)
-            cout << i << ' ';
-        cout << '\n';
-    }
+
+    for (long long i = a + 1; i < b; i++)
+        cout << i << ' ';
 
     return 0;
 }
