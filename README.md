@@ -262,6 +262,18 @@
     <td><a href="implementation/boj1267.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1475</td>
+    <td><a href="https://www.acmicpc.net/problem/1475">방 번호</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj1475.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>1919</td>
+    <td><a href="https://www.acmicpc.net/problem/1919">애너그램 만들기</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj1919.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2309</td>
     <td><a href="https://www.acmicpc.net/problem/2309">일곱 난쟁이</a></td>
     <td><a>완전탐색</a></td>
@@ -352,6 +364,12 @@
     <td><a href="implementation/boj2576.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>2577</td>
+    <td><a href="https://www.acmicpc.net/problem/2577">숫자의 개수</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj2577.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2587</td>
     <td><a href="https://www.acmicpc.net/problem/2587">대표값2</a></td>
     <td><a>구현</a></td>
@@ -368,6 +386,12 @@
     <td><a href="https://www.acmicpc.net/problem/2753">윤년</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj2753.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>3273</td>
+    <td><a href="https://www.acmicpc.net/problem/3273">두 수의 합</a></td>
+    <td><a>구현</a></td>
+    <td><a href="two-pointer/boj3273.cpp">C++</a></td>
   </tr>
   <tr>
     <td>9498</td>
@@ -394,6 +418,18 @@
     <td><a href="implementation/boj10804.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>10807</td>
+    <td><a href="https://www.acmicpc.net/problem/10807">개수 세기</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10807.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10808</td>
+    <td><a href="https://www.acmicpc.net/problem/10808">알파벳 개수</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj10808.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>10869</td>
     <td><a href="https://www.acmicpc.net/problem/10869">사칙연산</a></td>
     <td><a>구현</a></td>
@@ -404,6 +440,18 @@
     <td><a href="https://www.acmicpc.net/problem/10871">X보다 작은 수</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj10871.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>11328</td>
+    <td><a href="https://www.acmicpc.net/problem/11328">Strfry</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj11328.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>13300</td>
+    <td><a href="https://www.acmicpc.net/problem/13300">방 배정</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj13300.cpp">C++</a></td>
   </tr>
   <tr>
     <td>15552</td>
