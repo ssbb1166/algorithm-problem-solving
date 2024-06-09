@@ -4,15 +4,15 @@ using namespace std;
 
 
 int cnt[26];
-string word;
+string s;
 
 
 int main()
 {
-    cin >> word;
+    cin >> s;
 
-    for (int i = 0; i < word.size(); i++)
-        cnt[word[i] - 'a']++;
+    for (char alphabet : s)
+        cnt[alphabet - 'a']++;
 
     for (int i = 0; i < 26; i++)
         cout << cnt[i] << ' ';
