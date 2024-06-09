@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <iostream>
 #include <string>
 using namespace std;
@@ -11,16 +12,16 @@ int main()
 {
     cin >> word1 >> word2;
 
-    for (int i = 0; i < word1.length(); i++)
-        cnt[word1[i] - 'a']++;
+    for (char c : word1)
+        cnt[c - 'a']++;
 
-    for (int i = 0; i < word2.length(); i++)
-        cnt[word2[i] - 'a']--;
+    for (char c : word2)
+        cnt[c - 'a']--;
 
     for (int i = 0; i < 26; i++)
         res += abs(cnt[i]);
 
-    cout << res << '\n';
+    cout << res;
 
     return 0;
 }
