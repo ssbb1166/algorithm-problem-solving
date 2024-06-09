@@ -390,7 +390,7 @@
   <tr>
     <td>3273</td>
     <td><a href="https://www.acmicpc.net/problem/3273">두 수의 합</a></td>
-    <td><a>구현</a></td>
+    <td><a>투포인터</a></td>
     <td><a href="two-pointer/boj3273.cpp">C++</a></td>
   </tr>
   <tr>
