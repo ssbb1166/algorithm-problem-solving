@@ -2,8 +2,8 @@
 using namespace std;
 
 
-int n, k, p;
-bool visited[5001];
+int n, k, num;
+bool removed[5001];
 
 
 int main()
@@ -11,19 +11,17 @@ int main()
     cin >> n >> k;
 
     cout << '<';
-
-    for (int i = 1; i <= n; i++) {
-        for (int cnt = 0; cnt < k; cnt++) {
-            p++;
-            if (p > n) p = 1;
-            if (visited[p]) cnt--;
+    for (int cnt = 1; cnt <= n; cnt++) {
+        for (int idx = 1; idx <= k; idx++) {
+            num++;
+            if (num > n) num = 1;
+            if (removed[num]) idx--;
         }
-        cout << p;
-        if (i < n) cout << ", ";
-        visited[p] = true;
+        cout << num;
+        if (cnt < n) cout << ", ";
+        removed[num] = true;
     }
-
-    cout << '>' << '\n';
+    cout << '>';
 
     return 0;
 }
