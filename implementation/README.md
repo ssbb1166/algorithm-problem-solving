@@ -42,6 +42,12 @@
     <td><a href="boj1008.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1158</td>
+    <td><a href="https://www.acmicpc.net/problem/1158">요세푸스 문제</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj1158.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1267</td>
     <td><a href="https://www.acmicpc.net/problem/1267">핸드폰 요금</a></td>
     <td><a>구현</a></td>
