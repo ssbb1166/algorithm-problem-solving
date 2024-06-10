@@ -256,10 +256,22 @@
     <td><a href="mathematics/boj1009.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1158</td>
+    <td><a href="https://www.acmicpc.net/problem/1158">요세푸스 문제</a></td>
+    <td><a>구현</a><br/><a>큐</a></td>
+    <td><a href="implementation/boj1158.cpp">C++</a><br/><a href="queue/boj1158.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1267</td>
     <td><a href="https://www.acmicpc.net/problem/1267">핸드폰 요금</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj1267.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>1406</td>
+    <td><a href="https://www.acmicpc.net/problem/1406">에디터</a></td>
+    <td><a>리스트</a></td>
+    <td><a href="list/boj1406.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1475</td>
@@ -392,6 +404,12 @@
     <td><a href="https://www.acmicpc.net/problem/3273">두 수의 합</a></td>
     <td><a>투포인터</a></td>
     <td><a href="two-pointer/boj3273.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>5397</td>
+    <td><a href="https://www.acmicpc.net/problem/5397">키로거</a></td>
+    <td><a>리스트</a></td>
+    <td><a href="list/boj5397.cpp">C++</a></td>
   </tr>
   <tr>
     <td>9498</td>
