@@ -1,37 +1,35 @@
 #include <iostream>
 #include <stack>
-#include <vector>
 using namespace std;
 
 
-int n, cnt, seq[100000];
+int n, num, cnt = 1;
 stack<int> st;
-vector<char> op;
+string res;
 
 
 int main()
 {
     cin >> n;
 
-    for (int i = 0; i < n; i++)
-        cin >> seq[i];
+    while (n--) {
+        cin >> num;
 
-    for (int num = 1; num <= n; num++) {
-        st.push(num);
-        op.push_back('+');
+        while (cnt <= num) {
+            st.push(cnt++);
+            res += "+\n";
+        }
 
-        while (!st.empty() && st.top() == seq[cnt]) {
+        if (st.top() == num) {
             st.pop();
-            op.push_back('-');
-            cnt++;
+            res += "-\n";
         }
     }
 
     if (st.empty())
-        for (int i = 0; i < op.size(); i++)
-            cout << op[i] << '\n';
+        cout << res;
     else
-        cout << "NO" << '\n';
+        cout << "NO";
 
     return 0;
 }
