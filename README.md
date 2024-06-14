@@ -280,6 +280,12 @@
     <td><a href="implementation/boj1475.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1874</td>
+    <td><a href="https://www.acmicpc.net/problem/1874">스택 수열</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj1874.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1919</td>
     <td><a href="https://www.acmicpc.net/problem/1919">애너그램 만들기</a></td>
     <td><a>구현</a></td>
@@ -358,6 +364,12 @@
     <td><a href="implementation/boj2490.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>2493</td>
+    <td><a href="https://www.acmicpc.net/problem/2493">탑</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj2493.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2557</td>
     <td><a href="https://www.acmicpc.net/problem/2557">Hello World</a></td>
     <td><a>구현</a></td>
@@ -430,6 +442,12 @@
     <td><a href="implementation/boj10171.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>10773</td>
+    <td><a href="https://www.acmicpc.net/problem/10773">제로</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj10773.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>10804</td>
     <td><a href="https://www.acmicpc.net/problem/10804">카드 역배치</a></td>
     <td><a>구현</a></td>
@@ -446,6 +464,12 @@
     <td><a href="https://www.acmicpc.net/problem/10808">알파벳 개수</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj10808.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10828</td>
+    <td><a href="https://www.acmicpc.net/problem/10828">스택</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj10828.cpp">C++</a></td>
   </tr>
   <tr>
     <td>10869</td>
