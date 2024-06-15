@@ -20,7 +20,7 @@ int main()
         q.pop();
     }
 
-    cout << q.front() << '\n';
+    cout << q.front();
 
     return 0;
 }
