@@ -13,43 +13,25 @@ int main()
 {
     cin >> n;
 
-    for (int i = 0; i < n; i++) {
+    while (n--) {
         cin >> cmd;
 
         if (cmd == "push") {
             cin >> x;
             q.push(x);
         }
-        else if (cmd == "pop") {
-            if (q.empty()) {
-                cout << -1 << '\n';
-            }
-            else {
-                cout << q.front() << '\n';
-                q.pop();
-            }
+        if (cmd == "pop") {
+            cout << (!q.empty() ? q.front() : -1) << '\n';
+            if (!q.empty()) q.pop();
         }
-        else if (cmd == "size") {
+        if (cmd == "size")
             cout << q.size() << '\n';
-        }
-        else if (cmd == "empty") {
-            if (q.empty())
-                cout << 1 << '\n';
-            else
-                cout << 0 << '\n';
-        }
-        else if (cmd == "front") {
-            if (q.empty())
-                cout << -1 << '\n';
-            else
-                cout << q.front() << '\n';
-        }
-        else if (cmd == "back") {
-            if (q.size() == 0)
-                cout << -1 << '\n';
-            else
-                cout << q.back() << '\n';
-        }
+        if (cmd == "empty")
+            cout << q.empty() << '\n';
+        if (cmd == "front")
+            cout << (!q.empty() ? q.front() : -1) << '\n';
+        if (cmd == "back")
+            cout << (!q.empty() ? q.back() : -1) << '\n';
     }
 
     return 0;
