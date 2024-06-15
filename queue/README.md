@@ -29,5 +29,23 @@
     <td><a>큐</a></td>
     <td><a href="boj1158.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>2164</td>
+    <td><a href="https://www.acmicpc.net/problem/2164">카드2</a></td>
+    <td><a>큐</a></td>
+    <td><a href="boj2164.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10845</td>
+    <td><a href="https://www.acmicpc.net/problem/10845">큐</a></td>
+    <td><a>큐</a></td>
+    <td><a href="boj10845.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18258</td>
+    <td><a href="https://www.acmicpc.net/problem/18258">큐 2</a></td>
+    <td><a>큐</a></td>
+    <td><a href="boj18258.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
