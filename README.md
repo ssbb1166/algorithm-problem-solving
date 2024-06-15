@@ -292,6 +292,12 @@
     <td><a href="implementation/boj1919.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>2164</td>
+    <td><a href="https://www.acmicpc.net/problem/2164">카드2</a></td>
+    <td><a>큐</a></td>
+    <td><a href="queue/boj2164.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2309</td>
     <td><a href="https://www.acmicpc.net/problem/2309">일곱 난쟁이</a></td>
     <td><a>완전탐색</a></td>
@@ -472,6 +478,12 @@
     <td><a href="stack/boj10828.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>10845</td>
+    <td><a href="https://www.acmicpc.net/problem/10845">큐</a></td>
+    <td><a>큐</a></td>
+    <td><a href="queue/boj10845.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>10869</td>
     <td><a href="https://www.acmicpc.net/problem/10869">사칙연산</a></td>
     <td><a>구현</a></td>
@@ -500,6 +512,12 @@
     <td><a href="https://www.acmicpc.net/problem/15552">빠른 A+B</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj15552.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18258</td>
+    <td><a href="https://www.acmicpc.net/problem/18258">큐 2</a></td>
+    <td><a>큐</a></td>
+    <td><a href="queue/boj18258.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
