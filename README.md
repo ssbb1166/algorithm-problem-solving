@@ -256,6 +256,12 @@
     <td><a href="mathematics/boj1009.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1021</td>
+    <td><a href="https://www.acmicpc.net/problem/1021">회전하는 큐</a></td>
+    <td><a>덱</a></td>
+    <td><a href="deque/boj1021.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1158</td>
     <td><a href="https://www.acmicpc.net/problem/1158">요세푸스 문제</a></td>
     <td><a>구현</a><br/><a>큐</a></td>
@@ -430,6 +436,12 @@
     <td><a href="list/boj5397.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>5430</td>
+    <td><a href="https://www.acmicpc.net/problem/5430">AC</a></td>
+    <td><a>덱</a></td>
+    <td><a href="deque/boj5430.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>9498</td>
     <td><a href="https://www.acmicpc.net/problem/9498">시험 성적</a></td>
     <td><a>구현</a></td>
@@ -482,6 +494,12 @@
     <td><a href="https://www.acmicpc.net/problem/10845">큐</a></td>
     <td><a>큐</a></td>
     <td><a href="queue/boj10845.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10866</td>
+    <td><a href="https://www.acmicpc.net/problem/10866">덱</a></td>
+    <td><a>덱</a></td>
+    <td><a href="deque/boj10866.cpp">C++</a></td>
   </tr>
   <tr>
     <td>10869</td>
