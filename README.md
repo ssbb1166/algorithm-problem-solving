@@ -240,14 +240,14 @@
   <tr>
     <td>1007</td>
     <td><a href="https://www.acmicpc.net/problem/1007">벡터 매칭</a></td>
-    <td><a>수학</a></td>
-    <td><a href="mathematics/boj1007.cpp">C++</a></td>
+    <td><a>백트래킹</a></td>
+    <td><a href="backtracking/boj1007.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1008</td>
     <td><a href="https://www.acmicpc.net/problem/1008">A/B</a></td>
     <td><a>구현</a></td>
-    <td><a href="implementation/boj1005.cpp">C++</a></td>
+    <td><a href="implementation/boj1008.cpp">C++</a></td>
   </tr>
   <tr>
     <td>1009</td>
