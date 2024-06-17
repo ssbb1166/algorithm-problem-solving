@@ -382,6 +382,12 @@
     <td><a href="stack/boj2493.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>2504</td>
+    <td><a href="https://www.acmicpc.net/problem/2504">괄호의 값</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj2504.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2557</td>
     <td><a href="https://www.acmicpc.net/problem/2557">Hello World</a></td>
     <td><a>구현</a></td>
@@ -430,6 +436,18 @@
     <td><a href="two-pointer/boj3273.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>3986</td>
+    <td><a href="https://www.acmicpc.net/problem/3986">좋은 단어</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj3986.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>4949</td>
+    <td><a href="https://www.acmicpc.net/problem/4949">균형잡힌 세상</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj4949.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>5397</td>
     <td><a href="https://www.acmicpc.net/problem/5397">키로거</a></td>
     <td><a>리스트</a></td>
@@ -440,6 +458,12 @@
     <td><a href="https://www.acmicpc.net/problem/5430">AC</a></td>
     <td><a>덱</a></td>
     <td><a href="deque/boj5430.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>9012</td>
+    <td><a href="https://www.acmicpc.net/problem/9012">괄호</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj9012.cpp">C++</a></td>
   </tr>
   <tr>
     <td>9498</td>
@@ -464,6 +488,12 @@
     <td><a href="https://www.acmicpc.net/problem/10773">제로</a></td>
     <td><a>스택</a></td>
     <td><a href="stack/boj10773.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10799</td>
+    <td><a href="https://www.acmicpc.net/problem/10799">쇠막대기</a></td>
+    <td><a>스택</a></td>
+    <td><a href="stack/boj10799.cpp">C++</a></td>
   </tr>
   <tr>
     <td>10804</td>
