@@ -4,39 +4,44 @@
 using namespace std;
 
 
-string s;
+string str;
+
+
+bool Balanced()
+{
+    stack<char> st;
+
+    for (int i = 0; str[i]; i++) {
+        if (str[i] == '(' || str[i] == '[')
+            st.push(str[i]);
+
+        if (str[i] == ')') {
+            if (st.empty() || st.top() == '[')
+                return false;
+            else
+                st.pop();
+        }
+
+        if (str[i] == ']') {
+            if (st.empty() || st.top() == '(')
+                return false;
+            else
+                st.pop();
+        }
+    }
+
+    if (!st.empty())
+        return false;
+
+    return true;
+}
 
 
 int main()
 {
-    while (getline(cin, s)) {
-        stack<int> st;
-        bool balance = true;
-
-        if (s == ".") break;
-
-        for (int i = 0; i < s.size(); i++) {
-            if (s[i] == '(' || s[i] == '[')
-                st.push(s[i]);
-            if (s[i] == ')' || s[i] == ']') {
-                if (st.empty())
-                    balance = false;
-                else if (st.top() == '(' && s[i] == ')')
-                    st.pop();
-                else if (st.top() == '[' && s[i] == ']')
-                    st.pop();
-                else
-                    balance = false;
-            }
-        }
-
-        if (!st.empty())
-            balance = false;
-
-        if (balance)
-            cout << "yes" << '\n';
-        else
-            cout << "no" << '\n';
+    while (getline(cin, str)) {
+        if (str == ".") break;
+        cout << (Balanced() ? "yes" : "no") << '\n';
     }
 
     return 0;
