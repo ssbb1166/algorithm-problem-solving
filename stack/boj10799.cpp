@@ -13,7 +13,7 @@ int main()
 {
     cin >> arr;
 
-    for (int i = 0; i < arr.size(); i++) {
+    for (int i = 0; arr[i]; i++) {
         if (arr[i] == '(') {
             st.push('(');
         }
@@ -26,7 +26,7 @@ int main()
         }
     }
 
-    cout << cnt << '\n';
+    cout << cnt;
 
     return 0;
 }
