@@ -36,10 +36,40 @@
     <td><a href="boj2493.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>2504</td>
+    <td><a href="https://www.acmicpc.net/problem/2504">괄호의 값</a></td>
+    <td><a>스택</a></td>
+    <td><a href="boj2504.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>3986</td>
+    <td><a href="https://www.acmicpc.net/problem/3986">좋은 단어</a></td>
+    <td><a>스택</a></td>
+    <td><a href="boj3986.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>4949</td>
+    <td><a href="https://www.acmicpc.net/problem/4949">균형잡힌 세상</a></td>
+    <td><a>스택</a></td>
+    <td><a href="boj4949.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>9012</td>
+    <td><a href="https://www.acmicpc.net/problem/9012">괄호</a></td>
+    <td><a>스택</a></td>
+    <td><a href="boj9012.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>10773</td>
     <td><a href="https://www.acmicpc.net/problem/10773">제로</a></td>
     <td><a>스택</a></td>
     <td><a href="boj10773.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10799</td>
+    <td><a href="https://www.acmicpc.net/problem/10799">쇠막대기</a></td>
+    <td><a>스택</a></td>
+    <td><a href="boj10799.cpp">C++</a></td>
   </tr>
   <tr>
     <td>10828</td>
