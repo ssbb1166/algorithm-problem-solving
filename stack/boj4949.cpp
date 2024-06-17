@@ -11,18 +11,18 @@ bool Balanced()
 {
     stack<char> st;
 
-    for (int i = 0; str[i]; i++) {
-        if (str[i] == '(' || str[i] == '[')
-            st.push(str[i]);
+    for (char c : str) {
+        if (c == '(' || c == '[')
+            st.push(c);
 
-        if (str[i] == ')') {
+        if (c == ')') {
             if (st.empty() || st.top() == '[')
                 return false;
             else
                 st.pop();
         }
 
-        if (str[i] == ']') {
+        if (c == ']') {
             if (st.empty() || st.top() == '(')
                 return false;
             else
