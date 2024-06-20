@@ -60,12 +60,6 @@ void EscapeMaze()
 }
 
 
-bool CheckEdge(int x, int y)
-{
-    return x == 0 || x == c - 1 || y == 0 || y == r - 1;
-}
-
-
 int GetMinTime()
 {
     SpreadFire();
@@ -74,7 +68,7 @@ int GetMinTime()
     int res = INF;
     for (int y = 0; y < r; y++)
         for (int x = 0; x < c; x++)
-            if (CheckEdge(x, y))
+            if (x == 0 || x == c - 1 || y == 0 || y == r - 1)
                 res = min(res, j[y][x]);
 
     return res;
