@@ -28,7 +28,7 @@ int GetSize(int x, int y)
             int nx = x + dx[i];
             int ny = y + dy[i];
 
-            if (nx < 0 || nx >= m || ny < 0 || ny >= n)
+            if (nx < 0 || nx > m - 1 || ny < 0 || ny > n - 1)
                 continue;
 
             if (paint[ny][nx] == 1) {
