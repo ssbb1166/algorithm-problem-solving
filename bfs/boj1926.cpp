@@ -4,11 +4,11 @@
 using namespace std;
 
 
-int n, m, max_size, cnt, paint[500][500];
+int n, m, cnt, res, paint[500][500];
 
 
-int dx[] = { 0, 0, -1, 1 };
-int dy[] = { -1, 1, 0, 0 };
+int dx[] = { -1, 1, 0, 0 };
+int dy[] = { 0, 0, -1, 1 };
 
 
 int GetSize(int x, int y)
@@ -54,14 +54,13 @@ int main()
     for (int y = 0; y < n; y++) {
         for (int x = 0; x < m; x++) {
             if (paint[y][x] == 1) {
-                max_size = max(max_size, GetSize(x, y));
                 cnt++;
+                res = max(res, GetSize(x, y));
             }
         }
     }
 
-    cout << cnt << '\n';
-    cout << max_size << '\n';
+    cout << cnt << '\n' << res;
 
     return 0;
 }
