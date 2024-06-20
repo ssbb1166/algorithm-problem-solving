@@ -287,6 +287,12 @@
     <td><a href="implementation/boj1475.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1697</td>
+    <td><a href="https://www.acmicpc.net/problem/1697">숨바꼭질</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj1697.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1874</td>
     <td><a href="https://www.acmicpc.net/problem/1874">스택 수열</a></td>
     <td><a>스택</a></td>
@@ -299,10 +305,22 @@
     <td><a href="implementation/boj1919.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1926</td>
+    <td><a href="https://www.acmicpc.net/problem/1926">그림</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj1926.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>2164</td>
     <td><a href="https://www.acmicpc.net/problem/2164">카드2</a></td>
     <td><a>큐</a></td>
     <td><a href="queue/boj2164.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2178</td>
+    <td><a href="https://www.acmicpc.net/problem/2178">미로 탐색</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj2178.cpp">C++</a></td>
   </tr>
   <tr>
     <td>2309</td>
@@ -443,6 +461,12 @@
     <td><a href="stack/boj3986.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>4179</td>
+    <td><a href="https://www.acmicpc.net/problem/4179">불!</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj4179.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>4949</td>
     <td><a href="https://www.acmicpc.net/problem/4949">균형잡힌 세상</a></td>
     <td><a>스택</a></td>
@@ -459,6 +483,12 @@
     <td><a href="https://www.acmicpc.net/problem/5430">AC</a></td>
     <td><a>덱</a></td>
     <td><a href="deque/boj5430.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>7576</td>
+    <td><a href="https://www.acmicpc.net/problem/7576">토마토</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj7576.cpp">C++</a></td>
   </tr>
   <tr>
     <td>9012</td>
