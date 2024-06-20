@@ -59,5 +59,35 @@
     <td><a href="코드링크">C++</a></td>
   </tr>
   -->
+  <tr>
+    <td>1697</td>
+    <td><a href="https://www.acmicpc.net/problem/1697">숨바꼭질</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj1697.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>1926</td>
+    <td><a href="https://www.acmicpc.net/problem/1926">그림</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj1926.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>2178</td>
+    <td><a href="https://www.acmicpc.net/problem/2178">미로 탐색</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj2178.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>4179</td>
+    <td><a href="https://www.acmicpc.net/problem/4179">불!</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj4179.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>7576</td>
+    <td><a href="https://www.acmicpc.net/problem/7576">토마토</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj7576.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
