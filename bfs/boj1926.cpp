@@ -17,12 +17,12 @@ int GetSize(int x, int y)
     queue<pair<int, int>> q;
     q.push({ x, y });
     paint[y][x] = 0;
-    size++;
 
     while (!q.empty()) {
         int x = q.front().first;
         int y = q.front().second;
         q.pop();
+        size++;
 
         for (int i = 0; i < 4; i++) {
             int nx = x + dx[i];
@@ -34,7 +34,6 @@ int GetSize(int x, int y)
             if (paint[ny][nx] == 1) {
                 q.push({ nx, ny });
                 paint[ny][nx] = 0;
-                size++;
             }
         }
     }
