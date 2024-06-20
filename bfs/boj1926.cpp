@@ -7,8 +7,8 @@ using namespace std;
 int n, m, cnt, res, paint[500][500];
 
 
-int dx[] = { -1, 1, 0, 0 };
-int dy[] = { 0, 0, -1, 1 };
+int dx[] = { 0, 0, -1, 1 };
+int dy[] = { -1, 1, 0, 0 };
 
 
 int GetSize(int x, int y)
