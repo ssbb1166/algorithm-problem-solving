@@ -1,20 +1,19 @@
+#include <algorithm>
 #include <iostream>
 #include <queue>
 using namespace std;
 
 
-int m, n, h, day;
-int map[100][100][100];
-bool possible = true;
+int m, n, h, box[100][100][100];
 queue<pair<pair<int, int>, int>> q;
 
 
-int dx[] = { 0, 0, 0, 0, -1, 1 };
-int dy[] = { 0, 0, -1, 1, 0, 0 };
-int dz[] = { -1, 1, 0, 0, 0, 0 };
+int dx[] = { 0, 0, -1, 1, 0, 0 };
+int dy[] = { 0, 0, 0, 0, 1, -1 };
+int dz[] = { 1, -1, 0, 0, 0, 0 };
 
 
-void BFS()
+void Spread()
 {
     while (!q.empty()) {
         int x = q.front().first.first;
@@ -27,16 +26,31 @@ void BFS()
             int ny = y + dy[i];
             int nz = z + dz[i];
 
-            if (nx < 0 || nx >= m || ny < 0 || ny >= n || nz < 0 || nz >= h)
+            if (nx < 0 || nx > m - 1 || ny < 0 || ny > n - 1 || nz < 0 || nz > h - 1)
                 continue;
 
-            if (map[nz][ny][nx] == 0) {
+            if (box[nz][ny][nx] == 0) {
                 q.push({ {nx, ny}, nz });
-                day = map[z][y][x];
-                map[nz][ny][nx] = map[z][y][x] + 1;
+                box[nz][ny][nx] = box[z][y][x] + 1;
             }
         }
     }
+}
+
+
+int GetMinDay()
+{
+    int day = 0;
+    for (int z = 0; z < h; z++) {
+        for (int y = 0; y < n; y++) {
+            for (int x = 0; x < m; x++) {
+                if (box[z][y][x] == 0) return -1;
+                day = max(day, box[z][y][x]);
+            }
+        }
+    }
+    
+    return day - 1;
 }
 
 
@@ -47,22 +61,16 @@ int main()
     for (int z = 0; z < h; z++) {
         for (int y = 0; y < n; y++) {
             for (int x = 0; x < m; x++) {
-                cin >> map[z][y][x];
-                if (map[z][y][x] == 1)
+                cin >> box[z][y][x];
+                if (box[z][y][x] == 1)
                     q.push({ {x, y}, z });
             }
         }
     }
 
-    BFS();
+    Spread();
 
-    for (int z = 0; z < h; z++)
-        for (int y = 0; y < n; y++)
-            for (int x = 0; x < m; x++)
-                if (map[z][y][x] == 0)
-                    possible = false;
-
-    cout << (possible ? day : -1) << '\n';
+    cout << GetMinDay();
 
     return 0;
 }
