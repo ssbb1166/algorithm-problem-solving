@@ -84,12 +84,12 @@ int main()
         for (int x = 0; x < c; x++) {
             f[y][x] = j[y][x] = INF;
             if (map[y][x] == 'F') {
-                f[y][x] = 1;
                 fq.push({ x, y });
+                f[y][x] = 1;
             }
             if (map[y][x] == 'J') {
-                j[y][x] = 1;
                 jq.push({ x, y });
+                j[y][x] = 1;
             }
         }
     }
