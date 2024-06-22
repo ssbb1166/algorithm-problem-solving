@@ -29,8 +29,8 @@ void SpreadFire()
                 continue;
 
             if (map[ny][nx] != '#' && f[ny][nx] == INF) {
-                f[ny][nx] = f[y][x] + 1;
                 fq.push({ nx, ny });
+                f[ny][nx] = f[y][x] + 1;
             }
         }
     }
@@ -52,8 +52,8 @@ void EscapeMaze()
                 continue;
 
             if (map[ny][nx] != '#' && j[ny][nx] == INF && j[y][x] + 1 < f[ny][nx]) {
-                j[ny][nx] = j[y][x] + 1;
                 jq.push({ nx, ny });
+                j[ny][nx] = j[y][x] + 1;
             }
         }
     }
