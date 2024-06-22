@@ -60,6 +60,12 @@
   </tr>
   -->
   <tr>
+    <td>1012</td>
+    <td><a href="https://www.acmicpc.net/problem/1012">유기농 배추</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj1012.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1697</td>
     <td><a href="https://www.acmicpc.net/problem/1697">숨바꼭질</a></td>
     <td><a>BFS</a></td>
@@ -84,10 +90,34 @@
     <td><a href="boj4179.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>5427</td>
+    <td><a href="https://www.acmicpc.net/problem/5427">불</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj5427.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>7562</td>
+    <td><a href="https://www.acmicpc.net/problem/7562">나이트의 이동</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj7562.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>7569</td>
+    <td><a href="https://www.acmicpc.net/problem/7569">토마토</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj7569.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>7576</td>
     <td><a href="https://www.acmicpc.net/problem/7576">토마토</a></td>
     <td><a>BFS</a></td>
     <td><a href="boj7576.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10026</td>
+    <td><a href="https://www.acmicpc.net/problem/10026">적록색약</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj10026.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
