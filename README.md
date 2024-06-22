@@ -257,6 +257,12 @@
     <td><a href="mathematics/boj1009.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1012</td>
+    <td><a href="https://www.acmicpc.net/problem/1012">유기농 배추</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj1012.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1021</td>
     <td><a href="https://www.acmicpc.net/problem/1021">회전하는 큐</a></td>
     <td><a>덱</a></td>
@@ -479,10 +485,28 @@
     <td><a href="list/boj5397.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>5427</td>
+    <td><a href="https://www.acmicpc.net/problem/5427">불</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj5427.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>5430</td>
     <td><a href="https://www.acmicpc.net/problem/5430">AC</a></td>
     <td><a>덱</a></td>
     <td><a href="deque/boj5430.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>7562</td>
+    <td><a href="https://www.acmicpc.net/problem/7562">나이트의 이동</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj7562.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>7569</td>
+    <td><a href="https://www.acmicpc.net/problem/7569">토마토</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj7569.cpp">C++</a></td>
   </tr>
   <tr>
     <td>7576</td>
@@ -501,6 +525,12 @@
     <td><a href="https://www.acmicpc.net/problem/9498">시험 성적</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj9498.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>10026</td>
+    <td><a href="https://www.acmicpc.net/problem/10026">적록색약</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj10026.cpp">C++</a></td>
   </tr>
   <tr>
     <td>10093</td>
