@@ -287,6 +287,12 @@
     <td><a href="list/boj1406.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1439</td>
+    <td><a href="https://www.acmicpc.net/problem/1439">뒤집기</a></td>
+    <td><a>그리디1</a><br/><a>그리디2</a></td>
+    <td><a href="greedy/boj1439_a.cpp">C++</a><br/><a href="greedy/boj1439_b.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1475</td>
     <td><a href="https://www.acmicpc.net/problem/1475">방 번호</a></td>
     <td><a>구현</a></td>
