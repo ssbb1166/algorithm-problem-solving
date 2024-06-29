@@ -23,6 +23,12 @@
     <td><a href="코드링크">C++</a></td>
   </tr>
   -->
+  <tr>
+    <td>Level 4</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42891">무지의 먹방 라이브</a></td>
+    <td><a>그리디</a></td>
+    <td><a href="prog42891.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
