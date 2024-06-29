@@ -53,5 +53,11 @@
     <td><a href="코드링크">C++</a></td>
   </tr>
   -->
+  <tr>
+    <td>1439</td>
+    <td><a href="https://www.acmicpc.net/problem/1439">뒤집기</a></td>
+    <td><a>그리디1</a><br/><a>그리디2</a></td>
+    <td><a href="boj1439_a.cpp">C++</a><br/><a href="boj1439_b.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
