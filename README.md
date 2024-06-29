@@ -176,6 +176,12 @@
     <td><a>이진탐색</a></td>
     <td><a href="binary-search/prog43238.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>Level 4</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42891">무지의 먹방 라이브</a></td>
+    <td><a>그리디</a></td>
+    <td><a href="greedy/prog42891.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
