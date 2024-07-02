@@ -11,16 +11,13 @@ int main()
 {
     cin >> n;
 
-    for (int i = 0; i < n.length(); i++)
-        if (i < n.length() / 2)
-            sum += n[i];
-        else
-            sum -= n[i];
+    int s = 0, e = n.length() - 1;
+    while (s < e) {
+        sum += n[s++] - '0';
+        sum -= n[e--] - '0';
+    }
 
-    if (sum == 0)
-        cout << "LUCKY" << '\n';
-    else
-        cout << "READY" << '\n';
+    cout << (sum == 0 ? "LUCKY" : "READY");
 
     return 0;
 }
