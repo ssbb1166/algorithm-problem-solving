@@ -467,6 +467,12 @@
     <td><a href="implementation/boj2753.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>3190</td>
+    <td><a href="https://www.acmicpc.net/problem/3190">뱀</a></td>
+    <td><a>시뮬레이션</a></td>
+    <td><a href="simulation/boj3190.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>3273</td>
     <td><a href="https://www.acmicpc.net/problem/3273">두 수의 합</a></td>
     <td><a>투포인터</a></td>
@@ -635,10 +641,22 @@
     <td><a href="implementation/boj15552.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>15686</td>
+    <td><a href="https://www.acmicpc.net/problem/15686">치킨 배달</a></td>
+    <td><a>백트래킹</a></td>
+    <td><a href="backtracking/boj15686.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>18258</td>
     <td><a href="https://www.acmicpc.net/problem/18258">큐 2</a></td>
     <td><a>큐</a></td>
     <td><a href="queue/boj18258.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18406</td>
+    <td><a href="https://www.acmicpc.net/problem/18406">럭키 스트레이트</a></td>
+    <td><a>구현</a></td>
+    <td><a href="implementation/boj18406.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
