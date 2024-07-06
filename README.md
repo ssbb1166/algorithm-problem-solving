@@ -165,6 +165,12 @@
     <td><a href="bfs/prog43165.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>Level 2</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60057">문자열 압축</a></td>
+    <td><a>완전탐색</a></td>
+    <td><a href="brute-force/prog60057.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>Level 3</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43105">정수 삼각형</a></td>
     <td><a>DP</a></td>
@@ -175,6 +181,24 @@
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43238">입국심사</a></td>
     <td><a>이진탐색</a></td>
     <td><a href="binary-search/prog43238.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60059">자물쇠와 열쇠</a></td>
+    <td><a>시뮬레이션</a></td>
+    <td><a href="simulation/prog60059.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60061">기둥과 보 설치</a></td>
+    <td><a>시뮬레이션</a></td>
+    <td><a href="simulation/prog60061.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60062">외벽 점검</a></td>
+    <td><a>백트래킹</a></td>
+    <td><a href="backtracking/prog60062.cpp">C++</a></td>
   </tr>
   <tr>
     <td>Level 4</td>
