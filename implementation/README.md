@@ -239,6 +239,12 @@
     <td><a>구현</a></td>
     <td><a href="boj15552.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>18406</td>
+    <td><a href="https://www.acmicpc.net/problem/18406">럭키 스트레이트</a></td>
+    <td><a>구현</a></td>
+    <td><a href="boj18406.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
