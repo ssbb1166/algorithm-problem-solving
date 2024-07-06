@@ -27,6 +27,12 @@
     <td><a>백트래킹</a></td>
     <td><a href="boj1007.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>15686</td>
+    <td><a href="https://www.acmicpc.net/problem/15686">치킨 배달</a></td>
+    <td><a>백트래킹</a></td>
+    <td><a href="boj15686.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
