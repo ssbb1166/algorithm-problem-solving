@@ -1,45 +1,42 @@
+#include <algorithm>
 #include <cstdlib>
 #include <iostream>
 #include <vector>
+#define INF 10000
 using namespace std;
 
 
-int n, m, info;
-int dist, min_dist, sum, res = 1e9;
-vector<pair<int, int>> house, chicken, selected;
+int n, m, info, dist, min_dist, sum, res = INF;
+vector<pair<int, int>> houses, chickens, selected;
 
 
-void Calculate(int cnt, int idx)
+void CalculateDistance(int idx, int cnt)
 {
     if (cnt == m) {
         sum = 0;
-        for (int i = 0; i < house.size(); i++) {
-            int hx = house[i].first;
-            int hy = house[i].second;
+        for (pair<int, int> house : houses) {
+            int hx = house.first;
+            int hy = house.second;
 
-            min_dist = 1e9;
-            for (int j = 0; j < selected.size(); j++) {
-                int cx = selected[j].first;
-                int cy = selected[j].second;
-
+            min_dist = INF;
+            for (pair<int, int> chicken : selected) {
+                int cx = chicken.first;
+                int cy = chicken.second;
                 dist = abs(hx - cx) + abs(hy - cy);
-
-                if (dist < min_dist)
-                    min_dist = dist;
+                min_dist = min(min_dist, dist);
             }
 
             sum += min_dist;
         }
 
-        if (sum < res)
-            res = sum;
+        res = min(res, sum);
 
         return;
     }
 
-    for (int i = idx; i < chicken.size(); i++) {
-        selected.push_back(chicken[i]);
-        Calculate(cnt + 1, i + 1);
+    for (int i = idx; i < chickens.size(); i++) {
+        selected.push_back(chickens[i]);
+        CalculateDistance(i + 1, cnt + 1);
         selected.pop_back();
     }
 }
@@ -53,15 +50,15 @@ int main()
         for (int c = 1; c <= n; c++) {
             cin >> info;
             if (info == 1)
-                house.push_back({ r, c });
+                houses.push_back({ r, c });
             if (info == 2)
-                chicken.push_back({ r, c });
+                chickens.push_back({ r, c });
         }
     }
 
-    Calculate(0, 0);
+    CalculateDistance(0, 0);
 
-    cout << res << '\n';
+    cout << res;
 
     return 0;
 }
