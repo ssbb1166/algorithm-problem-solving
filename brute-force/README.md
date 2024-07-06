@@ -35,6 +35,12 @@
     <td><a>완전탐색</a></td>
     <td><a href="prog86491.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>Level 2</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60057">문자열 압축</a></td>
+    <td><a>완전탐색</a></td>
+    <td><a href="prog60057.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
