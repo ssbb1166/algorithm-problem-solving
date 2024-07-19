@@ -28,10 +28,10 @@ void Unite(int x, int y)
     queue<pair<int, int>> q;
     vector<pair<int, int>> un;
 
+    q.push({ x, y });
     united[y][x] = true;
     un.push_back({ x, y });
     total += a[y][x];
-    q.push({ x, y });
 
     while (!q.empty()) {
         int x = q.front().first;
@@ -50,10 +50,10 @@ void Unite(int x, int y)
 
             int diff = abs(a[y][x] - a[ny][nx]);
             if (diff >= l && diff <= r) {
+                q.push({ nx, ny });
                 united[ny][nx] = true;
                 un.push_back({ nx, ny });
                 total += a[ny][nx];
-                q.push({ nx, ny });
             }
         }
     }
