@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -5,23 +6,32 @@ using namespace std;
 
 
 int n, l, r, day, a[50][50];
-bool moved, visited[50][50];
+bool moved, united[50][50];
 
 
 int dx[] = { 0, 0, -1, 1 };
 int dy[] = { -1, 1, 0, 0 };
 
 
-void BFS(int x, int y)
+void Initialize()
+{
+    moved = false;
+    for (int y = 0; y < n; y++)
+        for (int x = 0; x < n; x++)
+            united[y][x] = false;
+}
+
+
+void Unite(int x, int y)
 {
     int total = 0;
     queue<pair<int, int>> q;
-    vector<pair<int, int>> lands;
+    vector<pair<int, int>> un;
 
-    q.push({ x, y });
-    visited[y][x] = true;
-    lands.push_back({ x, y });
+    united[y][x] = true;
+    un.push_back({ x, y });
     total += a[y][x];
+    q.push({ x, y });
 
     while (!q.empty()) {
         int x = q.front().first;
@@ -35,27 +45,27 @@ void BFS(int x, int y)
             if (nx < 0 || nx >= n || ny < 0 || ny >= n)
                 continue;
 
-            if (visited[ny][nx])
+            if (united[ny][nx])
                 continue;
 
             int diff = abs(a[y][x] - a[ny][nx]);
             if (diff >= l && diff <= r) {
-                q.push({ nx, ny });
-                visited[ny][nx] = true;
-                lands.push_back({ nx, ny });
+                united[ny][nx] = true;
+                un.push_back({ nx, ny });
                 total += a[ny][nx];
+                q.push({ nx, ny });
             }
         }
     }
 
-    int population = total / lands.size();
-    for (pair<int, int> land : lands) {
+    int population = total / un.size();
+    for (pair<int, int> land : un) {
         int x = land.first;
         int y = land.second;
         a[y][x] = population;
     }
 
-    if (lands.size() > 1)
+    if (un.size() > 1)
         moved = true;
 }
 
@@ -68,20 +78,18 @@ int main()
         for (int x = 0; x < n; x++)
             cin >> a[y][x];
 
-    do {
-        moved = false;
-        for (int y = 0; y < n; y++)
-            for (int x = 0; x < n; x++)
-                visited[y][x] = false;
+    while (true) {
+        Initialize();
 
         for (int y = 0; y < n; y++)
             for (int x = 0; x < n; x++)
-                if (!visited[y][x])
-                    BFS(x, y);
+                if (!united[y][x])
+                    Unite(x, y);
 
-        if (moved)
-            day++;
-    } while (moved);
+        if (!moved) break;
+
+        day++;
+    }
 
     cout << day;
 
