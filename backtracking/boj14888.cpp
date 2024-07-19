@@ -1,40 +1,29 @@
+#include <algorithm>
 #include <iostream>
 using namespace std;
 
 
-int n, a[11], op[4];
-int max_res = -1000000000;
-int min_res = 1000000000;
+int n, max_res = -1e9, min_res = 1e9, a[11], cnt[4];
 
 
-void Calculate(int res, int idx)
+void Calculate(int idx, int res)
 {
     if (idx == n) {
-        if (res > max_res)
-            max_res = res;
-        if (res < min_res)
-            min_res = res;
+        max_res = max(max_res, res);
+        min_res = min(min_res, res);
         return;
     }
 
-    for (int i = 0; i < 4; i++) {
-        if (op[i] > 0) {
-            op[i]--;
-            switch (i) {
-            case 0:
-                Calculate(res + a[idx], idx + 1);
-                break;
-            case 1:
-                Calculate(res - a[idx], idx + 1);
-                break;
-            case 2:
-                Calculate(res * a[idx], idx + 1);
-                break;
-            case 3:
-                Calculate(res / a[idx], idx + 1);
-                break;
+    for (int op = 0; op < 4; op++) {
+        if (cnt[op]) {
+            cnt[op]--;
+            switch (op) {
+            case 0: Calculate(idx + 1, res + a[idx]); break;
+            case 1: Calculate(idx + 1, res - a[idx]); break;
+            case 2: Calculate(idx + 1, res * a[idx]); break;
+            case 3: Calculate(idx + 1, res / a[idx]); break;
             }
-            op[i]++;
+            cnt[op]++;
         }
     }
 }
@@ -47,13 +36,12 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> a[i];
 
-    for (int i = 0; i < 4; i++)
-        cin >> op[i];
+    for (int op = 0; op < 4; op++)
+        cin >> cnt[op];
 
-    Calculate(a[0], 1);
+    Calculate(1, a[0]);
 
-    cout << max_res << '\n';
-    cout << min_res << '\n';
+    cout << max_res << '\n' << min_res;
 
     return 0;
 }
