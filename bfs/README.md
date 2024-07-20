@@ -35,6 +35,12 @@
     <td><a>BFS</a></td>
     <td><a href="prog43165.cpp">C++</a></td>
   </tr>
+  <tr>
+    <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60063">블록 이동하기</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="prog60063.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
 
@@ -118,6 +124,30 @@
     <td><a href="https://www.acmicpc.net/problem/10026">적록색약</a></td>
     <td><a>BFS</a></td>
     <td><a href="boj10026.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>14502</td>
+    <td><a href="https://www.acmicpc.net/problem/14502">연구소</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj14502.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>16234</td>
+    <td><a href="https://www.acmicpc.net/problem/16234">인구 이동</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="boj16234.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18352</td>
+    <td><a href="https://www.acmicpc.net/problem/18352">특정 거리의 도시 찾기</a></td>
+    <td><a>BFS1</a><br/><a>BFS2</a></td>
+    <td><a href="boj18352_a.cpp">C++</a><br/><a href="boj18352_b.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18405</td>
+    <td><a href="https://www.acmicpc.net/problem/18405">경쟁적 전염</a></td>
+    <td><a>BFS1</a><br/><a>BFS2</a></td>
+    <td><a href="boj18405_a.cpp">C++</a><br/><a href="boj18405_b.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
