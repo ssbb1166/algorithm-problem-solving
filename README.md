@@ -171,6 +171,12 @@
     <td><a href="brute-force/prog60057.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>Level 2</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60058">괄호 변환</a></td>
+    <td><a>재귀</a></td>
+    <td><a href="recursion/prog60058.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>Level 3</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43105">정수 삼각형</a></td>
     <td><a>DP</a></td>
@@ -199,6 +205,12 @@
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60062">외벽 점검</a></td>
     <td><a>백트래킹</a></td>
     <td><a href="backtracking/prog60062.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 3</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/60063">블록 이동하기</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/prog60063.cpp">C++</a></td>
   </tr>
   <tr>
     <td>Level 4</td>
@@ -659,6 +671,18 @@
     <td><a href="implementation/boj13300.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>14502</td>
+    <td><a href="https://www.acmicpc.net/problem/14502">연구소</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj14502.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>14888</td>
+    <td><a href="https://www.acmicpc.net/problem/14888">연산자 끼워넣기</a></td>
+    <td><a>백트래킹</a></td>
+    <td><a href="backtracking/boj14888.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>15552</td>
     <td><a href="https://www.acmicpc.net/problem/15552">빠른 A+B</a></td>
     <td><a>구현</a></td>
@@ -671,16 +695,40 @@
     <td><a href="backtracking/boj15686.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>16234</td>
+    <td><a href="https://www.acmicpc.net/problem/16234">인구 이동</a></td>
+    <td><a>BFS</a></td>
+    <td><a href="bfs/boj16234.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>18258</td>
     <td><a href="https://www.acmicpc.net/problem/18258">큐 2</a></td>
     <td><a>큐</a></td>
     <td><a href="queue/boj18258.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>18352</td>
+    <td><a href="https://www.acmicpc.net/problem/18352">특정 거리의 도시 찾기</a></td>
+    <td><a>BFS1</a><br/><a>BFS2</a></td>
+    <td><a href="bfs/boj18352_a.cpp">C++</a><br/><a href="bfs/boj18352_b.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18405</td>
+    <td><a href="https://www.acmicpc.net/problem/18405">경쟁적 전염</a></td>
+    <td><a>BFS1</a><br/><a>BFS2</a></td>
+    <td><a href="bfs/boj18405_a.cpp">C++</a><br/><a href="bfs/boj18405_b.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>18406</td>
     <td><a href="https://www.acmicpc.net/problem/18406">럭키 스트레이트</a></td>
     <td><a>구현</a></td>
     <td><a href="implementation/boj18406.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18428</td>
+    <td><a href="https://www.acmicpc.net/problem/18428">감시 피하기</a></td>
+    <td><a>백트래킹</a></td>
+    <td><a href="backtracking/boj18428.cpp">C++</a></td>
   </tr>
 </tbody>
 </table>
