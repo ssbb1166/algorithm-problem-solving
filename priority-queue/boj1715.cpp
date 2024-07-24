@@ -3,29 +3,27 @@
 using namespace std;
 
 
-int n, cnt, x, y, res;
-priority_queue<int, vector<int>, greater<int>> pq;
+int n, card, a, b, cnt;
+priority_queue<int, vector<int>, greater<int>> cards;
 
 
 int main()
 {
     cin >> n;
 
-    for (int i = 0; i < n; i++) {
-        cin >> cnt;
-        pq.push(cnt);
+    while (n--) {
+        cin >> card;
+        cards.push(card);
     }
 
-    while (pq.size() > 1) {
-        x = pq.top();
-        pq.pop();
-        y = pq.top();
-        pq.pop();
-        res += x + y;
-        pq.push(x + y);
+    while (cards.size() > 1) {
+        a = cards.top(); cards.pop();
+        b = cards.top(); cards.pop();
+        cnt += a + b;
+        cards.push(a + b);
     }
 
-    cout << res << '\n';
+    cout << cnt;
 
     return 0;
 }
