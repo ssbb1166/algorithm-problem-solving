@@ -347,6 +347,12 @@
     <td><a href="bfs/boj1697.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>1715</td>
+    <td><a href="https://www.acmicpc.net/problem/1715">카드 정렬하기</a></td>
+    <td><a>우선순위큐</a></td>
+    <td><a href="priority-queue/boj1715.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>1874</td>
     <td><a href="https://www.acmicpc.net/problem/1874">스택 수열</a></td>
     <td><a>스택</a></td>
@@ -629,6 +635,12 @@
     <td><a href="implementation/boj10808.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>10825</td>
+    <td><a href="https://www.acmicpc.net/problem/10825">국영수</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="sorting/boj10825.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>10828</td>
     <td><a href="https://www.acmicpc.net/problem/10828">스택</a></td>
     <td><a>스택</a></td>
@@ -705,6 +717,12 @@
     <td><a href="https://www.acmicpc.net/problem/18258">큐 2</a></td>
     <td><a>큐</a></td>
     <td><a href="queue/boj18258.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18310</td>
+    <td><a href="https://www.acmicpc.net/problem/18310">안테나</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="sorting/boj18310.cpp">C++</a></td>
   </tr>
   <tr>
     <td>18352</td>
