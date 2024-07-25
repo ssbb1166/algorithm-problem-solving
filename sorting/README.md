@@ -30,6 +30,12 @@
     <td><a href="prog42748.cpp">C++</a></td>
   </tr>
   <tr>
+    <td>Level 1</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42889">실패율</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="prog42889.cpp">C++</a></td>
+  </tr>
+  <tr>
     <td>Level 2</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42746">가장 큰 수</a></td>
     <td><a>정렬</a></td>
