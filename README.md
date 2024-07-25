@@ -142,6 +142,12 @@
   </tr>
   <tr>
     <td>Level 1</td>
+    <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42889">실패율</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="sorting/prog42889.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>Level 1</td>
     <td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/86491">최소직사각형</a></td>
     <td><a>완전탐색</a></td>
     <td><a href="brute-force/prog86491.cpp">C++</a></td>
