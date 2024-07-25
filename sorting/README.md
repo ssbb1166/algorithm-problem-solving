@@ -59,5 +59,17 @@
     <td><a href="코드링크">C++</a></td>
   </tr>
   -->
+  <tr>
+    <td>10825</td>
+    <td><a href="https://www.acmicpc.net/problem/10825">국영수</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="boj10825.cpp">C++</a></td>
+  </tr>
+  <tr>
+    <td>18310</td>
+    <td><a href="https://www.acmicpc.net/problem/18310">안테나</a></td>
+    <td><a>정렬</a></td>
+    <td><a href="boj18310.cpp">C++</a></td>
+  </tr>
 </tbody>
 </table>
