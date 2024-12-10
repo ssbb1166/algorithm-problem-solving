@@ -4,7 +4,7 @@ using namespace std;
 
 int n, k, pos, s[100];
 char alpha[100], wheel[25];
-bool cnt[26], impossible;
+bool checked[26], impossible;
 
 
 void PrintWheel()
@@ -23,10 +23,11 @@ int main()
 
     for (int i = k - 1; i >= 0; i--) {
         if (wheel[pos] && wheel[pos] != alpha[i]) impossible = true;
-        if (wheel[pos] != alpha[i] && cnt[alpha[i] - 'A']) impossible = true;
+        if (!wheel[pos] && checked[alpha[i] - 'A']) impossible = true;
+
         wheel[pos] = alpha[i];
         pos = (pos + s[i]) % n;
-        cnt[alpha[i] - 'A'] = true;
+        checked[alpha[i] - 'A'] = true;
     }
 
     if (!impossible)
