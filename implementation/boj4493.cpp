@@ -36,9 +36,9 @@ int main()
         }
 
         if (score > 0)
-            cout << "Player1" << '\n';
+            cout << "Player 1" << '\n';
         else if (score < 0)
-            cout << "Player2" << '\n';
+            cout << "Player 2" << '\n';
         else
             cout << "TIE" << '\n';
     }
